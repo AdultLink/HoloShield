@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: dd784bef6ab206a4ca6ffff563f4ab1c
+guid: 46e2e631087f2d845b4bd8170b7f629b
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Icosphere
-    400000: //RootNode
-    400002: Icosphere
-    2100000: IcosphereMat
-    2300000: Icosphere
-    3300000: Icosphere
-    4300000: Icosphere
+    100000: Cube_BenchMesh
+    100002: //RootNode
+    400000: Cube_BenchMesh
+    400002: //RootNode
+    2100000: Cube_BenchMeshMat
+    2300000: Cube_BenchMesh
+    3300000: Cube_BenchMesh
+    4300000: Cube_BenchMesh
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -44,10 +44,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
-    importBlendShapes: 0
-    importCameras: 0
-    importLights: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -60,13 +60,13 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
