@@ -9,7 +9,7 @@ The shader can be edited through [Amplify Shader Editor](http://amplify.pt/unity
 
 ---
 
-Project developed using **Unity 2017.4.8f1**. Please use this version if you are planning on contributing. You can work on your own branch and send a pull request with your changes.
+Project developed using **Unity 2018.3.0b6**. Please use this version if you are planning on contributing. You can work on your own branch and send a pull request with your changes.
 
 ---
 
