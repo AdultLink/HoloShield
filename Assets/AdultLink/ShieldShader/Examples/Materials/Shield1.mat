@@ -79,10 +79,10 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortionscale: 1
+    - _Distortionscale: 0.88
     - _Distortionspeed: 0.85
     - _DstBlend: 0
-    - _Extraroughness: 0
+    - _Extraroughness: 0.6
     - _GlobalFade: 1
     - _Globalopacity: 1
     - _GlossMapScale: 1

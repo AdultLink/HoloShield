@@ -79,9 +79,10 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortionscale: 0.01
+    - _Distortionscale: 0.65
     - _Distortionspeed: 0.88
     - _DstBlend: 0
+    - _Extraroughness: 3.8
     - _GlobalFade: 1
     - _Globalopacity: 1
     - _GlossMapScale: 1
@@ -91,10 +92,12 @@ Material:
     - _Maintextureintensity: 1
     - _Metallic: 0
     - _Mode: 0
+    - _Noisesize: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 1.22
     - _Scale: 1.5
+    - _Seondarytextureintensity: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

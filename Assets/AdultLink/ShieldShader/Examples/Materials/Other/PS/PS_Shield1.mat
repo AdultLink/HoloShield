@@ -6,10 +6,10 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Shield3
-  m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _INVERT_ON
-  m_LightmapFlags: 0
+  m_Name: PS_Shield1
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -39,12 +39,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b7d66af6397ad6d468d1d381204ff31e, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Maintexture:
-        m_Texture: {fileID: 2800000, guid: d6e52df542787e3429ff4238387f1624, type: 3}
-        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -58,62 +54,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Secondarytexture:
-        m_Texture: {fileID: 2800000, guid: e3933cb2e2577fb4ab81423186807589, type: 3}
-        m_Scale: {x: 1, y: 75}
-        m_Offset: {x: 0, y: 0}
-    - _Static:
-        m_Texture: {fileID: 2800000, guid: e3933cb2e2577fb4ab81423186807589, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture:
-        m_Texture: {fileID: 2800000, guid: 5a225669b449f104ebfe1ac897d85446, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Bias: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortionscale: 0
-    - _Distortionspeed: 0.88
     - _DstBlend: 0
-    - _Extraroughness: 0
-    - _GlobalFade: 1
-    - _Globalopacity: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Invert: 1
-    - _Maintextureintensity: 0.25
+    - _InvFade: 1
     - _Metallic: 0
     - _Mode: 0
-    - _Noisesize: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 1.81
-    - _Scale: 1.2
-    - _Seondarytextureintensity: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Texintensity: 4
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
     m_Colors:
-    - _Bordercolor: {r: 0, g: 0.70980394, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edgecolor: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainPanningspeed: {r: 0.05, g: -0.05, b: 0, a: 0}
-    - _Maincolor: {r: 1, g: 0.7241379, b: 0, a: 1}
-    - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
-    - _Secondarycolor: {r: 0.9034481, g: 0, b: 1, a: 1}
-    - _Secondarypanningspeed: {r: 0, g: 0, b: 0, a: 0}
-    - _Staticcolor: {r: 0.26470587, g: 0.6957404, b: 1, a: 0.978}
-    - _Staticpanningspeed: {r: 0, g: 2, b: 0, a: 0}
+    - _TintColor: {r: 0.61764705, g: 0.61764705, b: 0.61764705, a: 0.5019608}
