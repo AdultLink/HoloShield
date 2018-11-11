@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield5
+  m_Name: Ball2
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _INVERTMAINTEXTURE_ON _INVERT_ON
+  m_ShaderKeywords: _ENABLEPULSATION_ON _INVERTMAINTEXTURE_ON _INVERT_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -83,6 +83,8 @@ Material:
     - _Distortionscale: 0
     - _Distortionspeed: 0
     - _DstBlend: 0
+    - _Enabledistortion: 0
+    - _Enablepulsation: 1
     - _Extraroughness: 0
     - _GlobalFade: 1
     - _Globalopacity: 1
@@ -99,11 +101,12 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 3.45
-    - _Pulseamplitude: 0
-    - _Pulsefrequency: 0
+    - _Pulseamplitude: 0.25
+    - _Pulsefrequency: 5
     - _Pulseoffset: 0
     - _Pulsephase: 0
     - _Scale: 1.5
+    - _Secondarytextureintensity: 1
     - _Seondarytextureintensity: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -112,6 +115,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
+    - _test: 0
     m_Colors:
     - _Bordercolor: {r: 0, g: 0.70980394, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
