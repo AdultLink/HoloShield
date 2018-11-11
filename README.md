@@ -1,4 +1,4 @@
-# SphereDissolve [![Follow](https://img.shields.io/github/followers/adultlink.svg?style=social&label=Follow)](https://github.com/adultlink) [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](http://adultlink.mit-license.org) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/adultlink/5usd)
+# HoloShield [![Follow](https://img.shields.io/github/followers/adultlink.svg?style=social&label=Follow)](https://github.com/adultlink) [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](http://adultlink.mit-license.org) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/adultlink/5usd)
 
 ![IntroImage](Media/Shield1.gif)
 
@@ -13,7 +13,7 @@ Project developed using **Unity 2018.3.0b6**. Please use this version if you are
 
 ---
 
-You can also just download a **unitypackage** from the [releases tab](https://github.com/AdultLink/SphereDissolve/releases) and easily import everything to your project. This will not download the _media_ folder.
+You can also just download a **unitypackage** from the [releases tab](https://github.com/AdultLink/HoloShield/releases) and easily import everything to your project. This will not download the _media_ folder.
 
 _Disclaimer: The scripts controlling the behavior of the examples provided are not optimized in any way and should only be taken as quick & dirty examples._
 
