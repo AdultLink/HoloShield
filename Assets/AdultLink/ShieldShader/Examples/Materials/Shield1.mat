@@ -99,6 +99,10 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 1.22
+    - _Pulseamplitude: 0
+    - _Pulsefrequency: 0
+    - _Pulseoffset: 0
+    - _Pulsephase: 0
     - _Scale: 1.5
     - _Seondarytextureintensity: 0.5
     - _SmoothnessTextureChannel: 0
