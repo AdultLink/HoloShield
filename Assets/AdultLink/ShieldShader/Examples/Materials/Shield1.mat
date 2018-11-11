@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shield1
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _INVERT_ON
+  m_ShaderKeywords: _INVERTMAINTEXTURE_ON _INVERT_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -83,13 +83,15 @@ Material:
     - _Distortionscale: 0.88
     - _Distortionspeed: 0.85
     - _DstBlend: 0
-    - _Extraroughness: 0.6
+    - _Extraroughness: 0
     - _GlobalFade: 1
     - _Globalopacity: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Invert: 1
+    - _Invertmaintexture: 1
+    - _Invertsecondarytexture: 0
     - _Maintextureintensity: 0.25
     - _Metallic: 0
     - _Mode: 0
@@ -112,7 +114,8 @@ Material:
     - _Edgecolor: {r: 0, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainPanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
-    - _Maincolor: {r: 0, g: 1, b: 0.83448267, a: 1}
+    - _Maincolor: {r: 0, g: 1, b: 0.43290615, a: 1}
+    - _Mainpanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _Secondarycolor: {r: 0.26470578, g: 0.9695739, b: 1, a: 1}
     - _Secondarypanningspeed: {r: 0, g: 2, b: 0, a: 0}
