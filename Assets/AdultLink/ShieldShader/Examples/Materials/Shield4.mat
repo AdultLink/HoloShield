@@ -83,6 +83,7 @@ Material:
     - _Distortionscale: 2.01
     - _Distortionspeed: 2.92
     - _DstBlend: 0
+    - _EdgeLength: 15
     - _Enabledistortion: 1
     - _Enablepulsation: 1
     - _Exponent: 1
@@ -113,6 +114,10 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 6
     - _Test: 1
     - _Texintensity: 4
     - _UVSec: 0
