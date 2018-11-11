@@ -113,9 +113,9 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _TessMax: 40
-    - _TessMin: 25
-    - _TessPhongStrength: 0.5
-    - _TessValue: 10.6
+    - _TessMin: 10
+    - _TessPhongStrength: 1
+    - _TessValue: 5
     - _Texintensity: 4
     - _UVSec: 0
     - _ZWrite: 1

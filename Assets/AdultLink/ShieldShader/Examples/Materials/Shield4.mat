@@ -80,14 +80,14 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortionscale: 2.01
-    - _Distortionspeed: 2.92
+    - _Distortionscale: 2
+    - _Distortionspeed: 3
     - _DstBlend: 0
     - _EdgeLength: 15
     - _Enabledistortion: 1
     - _Enablepulsation: 1
     - _Exponent: 1
-    - _Extraroughness: 3.03
+    - _Extraroughness: 3
     - _GlobalFade: 1
     - _Globalopacity: 1
     - _GlossMapScale: 1

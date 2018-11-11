@@ -112,10 +112,10 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TessMax: 400
-    - _TessMin: 1
-    - _TessPhongStrength: 0.448
-    - _TessValue: 15
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 3
     - _Texintensity: 4
     - _UVSec: 0
     - _ZWrite: 1
