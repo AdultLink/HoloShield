@@ -17,7 +17,9 @@ You can also just download a **unitypackage** from the [releases tab](https://gi
 
 _Disclaimer: The scripts controlling the behavior of the examples provided are not optimized in any way and should only be taken as quick & dirty examples._
 
-Free packages used:
+Third-party (free) assets used in this project:
+- [FREE Skybox - Cubemap extended, by BOXOPHOBIC](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-cubemap-extended-107400)
+- [Kenney.nl particle pack](https://kenney.nl/assets/particle-pack)
 
 
 # License
