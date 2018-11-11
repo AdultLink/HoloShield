@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shield3
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _INVERTSECONDARYTEXTURE_ON
+  m_ShaderKeywords: _ENABLEDISTORTION_ON _INVERTSECONDARYTEXTURE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -83,6 +83,8 @@ Material:
     - _Distortionscale: 0.77
     - _Distortionspeed: 0.78
     - _DstBlend: 0
+    - _Enabledistortion: 1
+    - _Enablepulsation: 0
     - _Extraroughness: 1
     - _GlobalFade: 1
     - _Globalopacity: 1
