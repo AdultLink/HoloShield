@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ball1
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _ENABLEDISTORTION_ON _ENABLEPULSATION_ON _INVERT_ON
+  m_ShaderKeywords: _ENABLEDISTORTION_ON _INVERT_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -84,7 +84,7 @@ Material:
     - _Distortionspeed: 0.88
     - _DstBlend: 0
     - _Enabledistortion: 1
-    - _Enablepulsation: 1
+    - _Enablepulsation: 0
     - _Extraroughness: 4
     - _GlobalFade: 1
     - _Globalopacity: 1
@@ -126,7 +126,7 @@ Material:
     - _Edgecolor: {r: 0, g: 1, b: 0.2965517, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainPanningspeed: {r: 0, g: 0, b: 0, a: 0}
-    - _Maincolor: {r: 0, g: 1, b: 0.8758619, a: 1}
+    - _Maincolor: {r: 0, g: 0.80642533, b: 1, a: 1}
     - _Mainpanningspeed: {r: 0, g: 0, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _Secondarycolor: {r: 1, g: 0, b: 0, a: 1}
