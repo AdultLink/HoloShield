@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shield3
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _ENABLEDISTORTION_ON
+  m_ShaderKeywords: _ENABLEDISTORTION_ON _ENABLENOISE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -76,6 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Addnoise: 0
     - _Bias: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -85,6 +86,7 @@ Material:
     - _DstBlend: 0
     - _EdgeLength: 2
     - _Enabledistortion: 1
+    - _Enablenoise: 1
     - _Enablepulsation: 0
     - _Extraroughness: 0.66
     - _GlobalFade: 1
@@ -98,6 +100,7 @@ Material:
     - _Maintextureintensity: 0.25
     - _Metallic: 0
     - _Mode: 0
+    - _Noisescale: 3
     - _Noisesize: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -129,6 +132,7 @@ Material:
     - _MainPanningspeed: {r: 0.05, g: -0.05, b: 0, a: 0}
     - _Maincolor: {r: 1, g: 0.40945286, b: 0, a: 1}
     - _Mainpanningspeed: {r: 0.05, g: -0.05, b: 0, a: 0}
+    - _Noisespeed: {r: 0, g: -0.5, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _Secondarycolor: {r: 0.9034481, g: 0, b: 1, a: 1}
     - _Secondarypanningspeed: {r: 0, g: 0, b: 0, a: 0}

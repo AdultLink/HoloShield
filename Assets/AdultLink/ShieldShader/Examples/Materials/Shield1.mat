@@ -86,6 +86,7 @@ Material:
     - _DstBlend: 0
     - _EdgeLength: 15
     - _Enabledistortion: 0
+    - _Enablenoise: 0
     - _Enablepulsation: 0
     - _Extraroughness: 0
     - _GlobalFade: 1
