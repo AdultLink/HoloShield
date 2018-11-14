@@ -106,7 +106,7 @@ Material:
     - _OcclusionStrength: 1
     - _Outerfresnelintensity: 1
     - _Parallax: 0.02
-    - _Power: 1.22
+    - _Power: 1.2
     - _Pulseamplitude: 0
     - _Pulsefrequency: 0
     - _Pulseoffset: 0
