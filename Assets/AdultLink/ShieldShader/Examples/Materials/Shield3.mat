@@ -81,7 +81,7 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortionscale: 1.82
+    - _Distortionscale: 2
     - _Distortionspeed: 0.2
     - _DstBlend: 0
     - _EdgeLength: 2
@@ -94,6 +94,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Innerfresnelintensity: 0
     - _Invert: 0
     - _Invertmaintexture: 0
     - _Invertsecondarytexture: 0
@@ -103,6 +104,7 @@ Material:
     - _Noisescale: 3
     - _Noisesize: 0
     - _OcclusionStrength: 1
+    - _Outerfresnelintensity: 1
     - _Parallax: 0.02
     - _Power: 1.81
     - _Pulseamplitude: 0
