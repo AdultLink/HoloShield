@@ -133,7 +133,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainPanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
     - _Maincolor: {r: 0, g: 1, b: 0.43290615, a: 1}
-    - _Mainpanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
+    - _Mainpanningspeed: {r: 0, g: -0.05, b: 0, a: 0}
     - _Noisespeed: {r: 0, g: -20, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _Secondarycolor: {r: 0.26470578, g: 0.9695739, b: 1, a: 1}
