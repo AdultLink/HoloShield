@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shield4
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _ENABLEDISTORTION_ON _ENABLEPULSATION_ON
+  m_ShaderKeywords: _ENABLEDISTORTION_ON _ENABLEPULSATION_ON _INVERTSECONDARYTEXTURE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -97,7 +97,7 @@ Material:
     - _Innerfresnelintensity: 0.05
     - _Invert: 0
     - _Invertmaintexture: 0
-    - _Invertsecondarytexture: 0
+    - _Invertsecondarytexture: 1
     - _Maintextureintensity: 1
     - _Metallic: 0
     - _Mode: 0
@@ -113,7 +113,7 @@ Material:
     - _Pulseoffset: 0
     - _Pulsephase: 4.01
     - _Scale: 1.2
-    - _Secondarytextureintensity: 1
+    - _Secondarytextureintensity: 0.5
     - _Seondarytextureintensity: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

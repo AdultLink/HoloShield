@@ -107,8 +107,8 @@ Material:
     - _Outerfresnelintensity: 1
     - _Parallax: 0.02
     - _Power: 1.2
-    - _Pulseamplitude: 0
-    - _Pulsefrequency: 0
+    - _Pulseamplitude: 0.5
+    - _Pulsefrequency: 5
     - _Pulseoffset: 0
     - _Pulsephase: 0
     - _Scale: 1.5

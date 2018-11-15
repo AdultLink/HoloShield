@@ -85,6 +85,7 @@ Material:
     - _DstBlend: 0
     - _EdgeLength: 15
     - _Enabledistortion: 1
+    - _Enablenoise: 0
     - _Enablepulsation: 0
     - _Extraroughness: 1
     - _GlobalFade: 1
@@ -92,14 +93,17 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Innerfresnelintensity: 0
     - _Invert: 0
     - _Invertmaintexture: 0
     - _Invertsecondarytexture: 1
     - _Maintextureintensity: 0.5
     - _Metallic: 0
     - _Mode: 0
+    - _Noisescale: 1
     - _Noisesize: 0
     - _OcclusionStrength: 1
+    - _Outerfresnelintensity: 1
     - _Parallax: 0.02
     - _Power: 1.81
     - _Pulseamplitude: 0
@@ -127,8 +131,9 @@ Material:
     - _Edgecolor: {r: 0, g: 1, b: 0.32225704, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainPanningspeed: {r: -0.05, g: 0.05, b: 0, a: 0}
-    - _Maincolor: {r: 0.043704987, g: 1, b: 0, a: 1}
+    - _Maincolor: {r: 0.6163522, g: 1, b: 0.5990566, a: 1}
     - _Mainpanningspeed: {r: -0.05, g: 0.05, b: 0, a: 0}
+    - _Noisespeed: {r: 0, g: 0, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _Secondarycolor: {r: 0, g: 1, b: 0.11260915, a: 1}
     - _Secondarypanningspeed: {r: 0, g: -5, b: 0, a: 0}
