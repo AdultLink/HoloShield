@@ -21,6 +21,7 @@ _Disclaimer: The scripts controlling the behavior of the examples provided are n
 Third-party (free) assets used in this project:
 - [FREE Skybox - Cubemap extended, by BOXOPHOBIC](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-cubemap-extended-107400)
 - [Kenney.nl particle pack](https://kenney.nl/assets/particle-pack)
+- [Barbarian warrior, by ADVANCEDSKELETON](https://assetstore.unity.com/packages/3d/characters/humanoids/barbarian-warrior-75519)
 
 
 # License
