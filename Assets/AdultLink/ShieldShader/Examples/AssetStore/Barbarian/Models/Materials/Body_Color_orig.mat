@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skybox Cubemap Extended
-  m_Shader: {fileID: 4800000, guid: 82881a2d011b0964696411c822cdd00b, type: 3}
-  m_ShaderKeywords: _ENABLEROTATION_ON
-  m_LightmapFlags: 0
+  m_Name: Body_Color_orig
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,15 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cube:
-        m_Texture: {fileID: 8900000, guid: 3ce67fee0f260ee47b4d820421fe6ff9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CubemapHDR:
-        m_Texture: {fileID: 8900000, guid: beb1457d375110e468b8d8e1f29fccea, type: 3}
+        m_Texture: {fileID: 2800000, guid: e248d1d5781a7b443841818cb6aec2dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -48,6 +40,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9e478f052d1a4d149a19b75fe55c36e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Maintexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,46 +59,68 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Tex:
-        m_Texture: {fileID: 8900000, guid: beb1457d375110e468b8d8e1f29fccea, type: 3}
+    - _Secondarytexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture0:
-        m_Texture: {fileID: 8900000, guid: 3ce67fee0f260ee47b4d820421fe6ff9, type: 3}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: 6c3d9725f470455488f7fa30903c2dc2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _tex:
-        m_Texture: {fileID: 8900000, guid: 3ce67fee0f260ee47b4d820421fe6ff9, type: 3}
+    - _texcoord:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Bias: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Distortionscale: 1
+    - _Distortionspeed: 1
     - _DstBlend: 0
-    - _EnableFog: 0
-    - _EnableRotation: 1
-    - _Exposure: 1.45
-    - _FogFill: 0
-    - _FogHeight: 0.6
-    - _FogSmoothness: 0.01
-    - _GlossMapScale: 1
+    - _Enabledistortion: 0
+    - _Enablenoise: 0
+    - _Enablepulsation: 0
+    - _Extraroughness: 10
+    - _Globalopacity: 1
+    - _GlossMapScale: 0
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Innerfresnelintensity: 0.2
+    - _Invertmaintexture: 0
+    - _Invertsecondarytexture: 0
+    - _Maintextureintensity: 0
+    - _Metallic: 0.5
     - _Mode: 0
+    - _Noisescale: 100
     - _OcclusionStrength: 1
+    - _Outerfresnelintensity: 0.8
     - _Parallax: 0.02
-    - _Rotation: 0
-    - _RotationSpeed: 0.5
-    - _SmoothnessTextureChannel: 0
+    - _Power: 4
+    - _Pulseamplitude: 0.05
+    - _Pulsefrequency: 10
+    - _Pulseoffset: 0
+    - _Pulsephase: 0
+    - _Scale: 4
+    - _Secondarytextureintensity: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Edgecolor: {r: 4.237095, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tex_HDR: {r: 1, g: 1, b: 0, a: 0}
-    - _TintColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
+    - _Maincolor: {r: 1, g: 0, b: 0, a: 0.666}
+    - _Mainpanningspeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Noisespeed: {r: 0, g: -1, b: 0, a: 0}
+    - _Secondarycolor: {r: 1, g: 0, b: 0.9342737, a: 0}
+    - _Secondarypanningspeed: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
