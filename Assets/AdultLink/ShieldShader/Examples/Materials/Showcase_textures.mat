@@ -98,7 +98,7 @@ Material:
     - _Invert: 1
     - _Invertmaintexture: 1
     - _Invertsecondarytexture: 0
-    - _Maintextureintensity: 0.5
+    - _Maintextureintensity: 0.15
     - _Metallic: 0
     - _Mode: 0
     - _Noisescale: 600
@@ -112,7 +112,7 @@ Material:
     - _Pulseoffset: 0
     - _Pulsephase: 0
     - _Scale: 1.5
-    - _Secondarytextureintensity: 0.5
+    - _Secondarytextureintensity: 0.75
     - _Seondarytextureintensity: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -136,7 +136,7 @@ Material:
     - _Mainpanningspeed: {r: 0, g: -1, b: 0, a: 0}
     - _Noisespeed: {r: 0, g: -20, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
-    - _Secondarycolor: {r: 1, g: 0.6460065, b: 0.26274514, a: 1}
+    - _Secondarycolor: {r: 0.26274514, g: 0.52608865, b: 1, a: 1}
     - _Secondarypanningspeed: {r: 0, g: 0.2, b: 0, a: 0}
     - _Staticcolor: {r: 0.26470587, g: 0.6957404, b: 1, a: 0.978}
     - _Staticpanningspeed: {r: 0, g: 2, b: 0, a: 0}

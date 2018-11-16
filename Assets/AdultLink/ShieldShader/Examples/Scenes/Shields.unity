@@ -27521,8 +27521,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0, b: 0, a: 0}
-        key1: {r: 1, g: 0.24696937, b: 0, a: 1}
+        key0: {r: 1, g: 0, b: 0.08701134, a: 0}
+        key1: {r: 1, g: 0.11792451, b: 0.14437644, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -37295,8 +37295,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0, b: 0, a: 0}
-        key1: {r: 1, g: 0.24696937, b: 0, a: 1}
+        key0: {r: 1, g: 0, b: 0.17356348, a: 0}
+        key1: {r: 1, g: 0.06640468, b: 0, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -41866,7 +41866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813526605}
   m_LocalRotation: {x: 0.07673595, y: -0.0035848457, z: 0.00027590184, w: 0.997045}
-  m_LocalPosition: {x: 14.4, y: 0.46, z: -1.873}
+  m_LocalPosition: {x: 6.63, y: 0.46, z: -1.873}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -41893,7 +41893,7 @@ MonoBehaviour:
   lockedIcon: {fileID: 1167207704}
   unlockedIcon: {fileID: 120663307}
   cameraPositions:
-  - _name: Basic example
+  - _name: Basic setup
     _description: 'This shader provides several ways to customize the final look of
       your sci-fi shield.
 
