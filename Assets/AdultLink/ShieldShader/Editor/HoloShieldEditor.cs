@@ -54,6 +54,7 @@ public class HoloShieldEditor : ShaderGUI
 	private MaterialProperty _Enablenoise = null;
 	private MaterialProperty _Noisescale = null;
 	private MaterialProperty _Noisespeed = null;
+	private MaterialProperty _Sharpennoise = null;
 	
 
 	//SWITCHES
@@ -120,6 +121,7 @@ public class HoloShieldEditor : ShaderGUI
 		_Enablenoise = FindProperty("_Enablenoise", _properties);
 		_Noisescale = FindProperty("_Noisescale", _properties);
 		_Noisespeed = FindProperty("_Noisespeed", _properties);
+		_Sharpennoise = FindProperty("_Sharpennoise", _properties);
 
 		
 	}
@@ -283,6 +285,7 @@ public class HoloShieldEditor : ShaderGUI
 		EditorGUILayout.Space();
 		_materialEditor.ShaderProperty(_Noisescale, "Scale");
 		_materialEditor.ShaderProperty(_Noisespeed, "Speed");
+		_materialEditor.ShaderProperty(_Sharpennoise, "Sharpen");
 		EditorGUILayout.Space();
 	}
 	

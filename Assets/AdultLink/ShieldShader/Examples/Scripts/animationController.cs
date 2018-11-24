@@ -10,11 +10,11 @@ public class animationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q)) {
+        if (Input.GetKeyDown(KeyCode.Alpha1)) {
             anim.SetTrigger("activateTransition");
         }
 
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
             anim.SetTrigger("activateTransition_inv");
         }
     }

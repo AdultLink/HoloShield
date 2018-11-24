@@ -101,7 +101,7 @@ Material:
     - _Maintextureintensity: 0
     - _Metallic: 0
     - _Mode: 0
-    - _Noisescale: 60
+    - _Noisescale: 20
     - _Noisesize: 3.4
     - _OcclusionStrength: 1
     - _Outerfresnelintensity: 1
@@ -114,6 +114,9 @@ Material:
     - _Scale: 1.5
     - _Secondarytextureintensity: 0
     - _Seondarytextureintensity: 0.5
+    - _Sharpen: 0
+    - _Sharpennn: 0
+    - _Sharpennoise: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

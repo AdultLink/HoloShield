@@ -112,6 +112,9 @@ Material:
     - _Scale: 1.5
     - _Secondarytextureintensity: 1
     - _Seondarytextureintensity: 1
+    - _Sharpen: 0
+    - _Sharpen2: 0
+    - _Sharpennn: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -122,7 +125,7 @@ Material:
     - _Texintensity: 4
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     - _test: 0
     m_Colors:
     - _Bordercolor: {r: 1, g: 0, b: 0, a: 1}
