@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Speedball
+  m_Name: Shield5
   m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
-  m_ShaderKeywords: _ENABLENOISE_ON _INVERTMAINTEXTURE_ON _INVERT_ON
+  m_ShaderKeywords: _ENABLEDISTORTION_ON _INVERTSECONDARYTEXTURE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,8 +44,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Maintexture:
-        m_Texture: {fileID: 2800000, guid: 05e1fe41cc7b13949a096d6310138337, type: 3}
-        m_Scale: {x: 10, y: 10}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 10, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -60,8 +60,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Secondarytexture:
-        m_Texture: {fileID: 2800000, guid: 693d3cca90d55c741b729cf055d4f0a6, type: 3}
-        m_Scale: {x: 8, y: 8}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 6}
         m_Offset: {x: 0, y: 0}
     - _Static:
         m_Texture: {fileID: 2800000, guid: e3933cb2e2577fb4ab81423186807589, type: 3}
@@ -76,69 +76,70 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Addnoise: 0
     - _Bias: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortionscale: 2.03
-    - _Distortionspeed: 0.5
+    - _Distortionscale: 4.43
+    - _Distortionspeed: 0.17
     - _DstBlend: 0
     - _EdgeLength: 15
-    - _Enabledistortion: 0
-    - _Enablenoise: 1
+    - _Enabledistortion: 1
+    - _Enablenoise: 0
     - _Enablepulsation: 0
-    - _Extraroughness: 10
+    - _Exponent: 1
+    - _Extraroughness: 3.38
     - _GlobalFade: 1
     - _Globalopacity: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Innerfresnelintensity: 0
-    - _Invert: 1
-    - _Invertmaintexture: 1
-    - _Invertsecondarytexture: 0
-    - _Maintextureintensity: 0.15
+    - _Invert: 0
+    - _Invertmaintexture: 0
+    - _Invertsecondarytexture: 1
+    - _Maintextureintensity: 1
     - _Metallic: 0
     - _Mode: 0
-    - _Noisescale: 50
-    - _Noisesize: 3.4
+    - _Noisescale: 1
+    - _Noisesize: 0
     - _OcclusionStrength: 1
     - _Outerfresnelintensity: 1
     - _Parallax: 0.02
-    - _Power: 1.2
-    - _Pulseamplitude: 0.05
-    - _Pulsefrequency: 9.79
+    - _Power: 1.81
+    - _Powerexponent: 1
+    - _Pulseamplitude: 0.25
+    - _Pulsefrequency: 20
     - _Pulseoffset: 0
-    - _Pulsephase: 0
-    - _Scale: 2
-    - _Secondarytextureintensity: 0.75
-    - _Seondarytextureintensity: 0.5
-    - _Sharpen: 0
-    - _Sharpennoise: 1
+    - _Pulsephase: 4.01
+    - _Scale: 1.2
+    - _Secondarytextureintensity: 0.5
+    - _Seondarytextureintensity: 1
+    - _Sharpennoise: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _TessMax: 25
     - _TessMin: 10
     - _TessPhongStrength: 0.5
-    - _TessValue: 3
+    - _TessValue: 1
+    - _Test: 1
     - _Texintensity: 4
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 1
+    - __dirty: 0
     - _test: 0
     m_Colors:
     - _Bordercolor: {r: 0, g: 0.70980394, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edgecolor: {r: 1, g: 0, b: 0.009601116, a: 1}
+    - _Edgecolor: {r: 1, g: 0, b: 0.19320297, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainPanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
-    - _Maincolor: {r: 1, g: 0.009792074, b: 0, a: 1}
-    - _Mainpanningspeed: {r: 0, g: -1, b: 0, a: 0}
-    - _Noisespeed: {r: 0, g: 1, b: 0, a: 0}
+    - _MainPanningspeed: {r: -0.05, g: 0.05, b: 0, a: 0}
+    - _Maincolor: {r: 1.7411011, g: 0.90810376, b: 0, a: 1}
+    - _Mainpanningspeed: {r: 0, g: -2, b: 0, a: 0}
+    - _Noisespeed: {r: 0, g: 0, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
-    - _Secondarycolor: {r: 1, g: 0.26274514, b: 0.58515036, a: 1}
-    - _Secondarypanningspeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Secondarycolor: {r: 1.7411011, g: 0.15704049, b: 0, a: 1}
+    - _Secondarypanningspeed: {r: 0, g: 5, b: 0, a: 0}
     - _Staticcolor: {r: 0.26470587, g: 0.6957404, b: 1, a: 0.978}
     - _Staticpanningspeed: {r: 0, g: 2, b: 0, a: 0}
