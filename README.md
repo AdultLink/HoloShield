@@ -3,7 +3,7 @@
 
 ![IntroImage](Media/Shield1.gif)
 
-_WORK IN PROGRESS_
+# _THIS IS A WORK IN PROGRESS, INCLUDING DOCUMENTATION_
 
 
 The shader can be edited through [Amplify Shader Editor](http://amplify.pt/unity/amplify-shader-editor) and contributions to the project are always welcome!
@@ -22,6 +22,33 @@ Third-party (free) assets used in this project:
 - [FREE Skybox - Cubemap extended, by BOXOPHOBIC](https://assetstore.unity.com/packages/vfx/shaders/free-skybox-cubemap-extended-107400)
 - [Kenney.nl particle pack](https://kenney.nl/assets/particle-pack)
 - [Barbarian warrior, by ADVANCEDSKELETON](https://assetstore.unity.com/packages/3d/characters/humanoids/barbarian-warrior-75519)
+- [Speedball player, by CHARACTER INK](https://assetstore.unity.com/packages/3d/characters/humanoids/speedball-player-12980)
+
+# Table of contents
+1. [Getting started](#getting-started)
+2. [Usage & parameters](#usage-parameters)
+    - 2.1 [Fresnel settings](#fresnel-settings)
+    - 2.2 [Texture settings](#texture-settings)
+    - 2.3 [Noise settings](#noise-settings)
+    - 2.4 [Distortion settings](#distoriton-settings)
+    - 2.5 [Pulsation settings](#pulsation-settings)
+    - 2.6 [Tessellation settings](#tessellation-settings)
+3. [Examples](#examples)
+4. [Donate](#donate)
+5. [License](#license)
+
+# Getting started
+Setup is minimal, just drop a material with onto a default unity sphere and you already have your holo shield. Other than that it's just playing around with parameters to achieve desired look.
+
+![Default](Media/Default.jpg)
+
+# Usage, parameters
+
+This shader is comprised of a few "modules", that work independently and can be activated/deactivated without affecting each other.
+
+![Parameters](Media/Parameters.jpg)
+
+
 
 
 # License
