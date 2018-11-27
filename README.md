@@ -3,9 +3,6 @@
 
 ![IntroImage](Media/Shield1.gif)
 
-# _THIS IS A WORK IN PROGRESS, INCLUDING DOCUMENTATION_
-
-
 This shader can be edited through [Amplify Shader Editor](http://amplify.pt/unity/amplify-shader-editor) and contributions to the project are always welcome!
 
 ---
