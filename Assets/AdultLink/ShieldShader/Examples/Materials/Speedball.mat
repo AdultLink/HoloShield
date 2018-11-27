@@ -131,14 +131,14 @@ Material:
     m_Colors:
     - _Bordercolor: {r: 0, g: 0.70980394, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edgecolor: {r: 1, g: 0, b: 0.009601116, a: 1}
+    - _Edgecolor: {r: 1.4142135, g: 0, b: 0.011091871, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainPanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
-    - _Maincolor: {r: 1, g: 0.009792074, b: 0, a: 1}
+    - _Maincolor: {r: 2, g: 0.015686275, b: 0, a: 1}
     - _Mainpanningspeed: {r: 0, g: -1, b: 0, a: 0}
     - _Noisespeed: {r: 0, g: 1, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
-    - _Secondarycolor: {r: 1, g: 0.26274514, b: 0.58515036, a: 1}
+    - _Secondarycolor: {r: 1, g: 0.2627451, b: 0.58431375, a: 1}
     - _Secondarypanningspeed: {r: 0, g: 0.2, b: 0, a: 0}
     - _Staticcolor: {r: 0.26470587, g: 0.6957404, b: 1, a: 0.978}
     - _Staticpanningspeed: {r: 0, g: 2, b: 0, a: 0}

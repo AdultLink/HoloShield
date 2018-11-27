@@ -114,6 +114,7 @@ Material:
     - _Scale: 1.2
     - _Secondarytextureintensity: 1
     - _Seondarytextureintensity: 1
+    - _Sharpennoise: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -129,7 +130,7 @@ Material:
     m_Colors:
     - _Bordercolor: {r: 0, g: 0.70980394, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edgecolor: {r: 1, g: 0, b: 0, a: 1}
+    - _Edgecolor: {r: 1.4142135, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainPanningspeed: {r: 0.05, g: -0.05, b: 0, a: 0}
     - _Maincolor: {r: 1, g: 0.40945286, b: 0, a: 1}

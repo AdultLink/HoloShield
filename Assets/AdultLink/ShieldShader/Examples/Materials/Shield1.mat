@@ -101,7 +101,7 @@ Material:
     - _Maintextureintensity: 0.25
     - _Metallic: 0
     - _Mode: 0
-    - _Noisescale: 600
+    - _Noisescale: 100
     - _Noisesize: 3.4
     - _OcclusionStrength: 1
     - _Outerfresnelintensity: 1
@@ -114,6 +114,7 @@ Material:
     - _Scale: 1.5
     - _Secondarytextureintensity: 0.5
     - _Seondarytextureintensity: 0.5
+    - _Sharpennoise: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -134,7 +135,7 @@ Material:
     - _MainPanningspeed: {r: 0, g: -0.1, b: 0, a: 0}
     - _Maincolor: {r: 0, g: 1, b: 0.43290615, a: 1}
     - _Mainpanningspeed: {r: 0, g: -0.05, b: 0, a: 0}
-    - _Noisespeed: {r: 0, g: -20, b: 0, a: 0}
+    - _Noisespeed: {r: 0, g: 1, b: 0, a: 0}
     - _Panningspeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _Secondarycolor: {r: 0.26470578, g: 0.9695739, b: 1, a: 1}
     - _Secondarypanningspeed: {r: 0, g: 2, b: 0, a: 0}
