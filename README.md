@@ -25,7 +25,7 @@ Third-party (free) assets used in this project:
 1. [Getting started](#getting-started)
 2. [Usage & parameters](#usage-parameters)
     - 2.1 [Fresnel](#fresnel)
-    - 2.2 [Texture](#texture)
+    - 2.2 [Textures](#texture)
     - 2.3 [Noise](#noise)
     - 2.4 [Distortion](#distoriton)
     - 2.5 [Pulsation](#pulsation)
@@ -57,7 +57,7 @@ Default values for `Inner opacity` and `Edge opacity` are 0 and 1 respectively. 
 
 _For more information on the Fresnel effect check [this](https://www.dorian-iten.com/fresnel/)_.
 
-## Texture
+## Textures
 
 But just a simple edge is quite boring, isn't it?
 
